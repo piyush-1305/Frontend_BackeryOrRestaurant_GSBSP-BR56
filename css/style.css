@@ -1,6 +1,12 @@
 .navB{
   font-size: 1.8vw;
 }
+.navB .wd strong{
+  display:none;
+}
+.navB .wd{
+  max-width: 7%;
+}
 .big-font{
   font-size:2.5vw;
 }
@@ -21,6 +27,7 @@
   text-align:center;
   color:red;
 }
+
 .main-image{
   display: inline-block;
 }
@@ -32,17 +39,37 @@
 .navs:hover{
   background-color: #cbccce;
 }
+@media screen and (max-width: 575px) {
+  .navB{
+    font-size: 2.6vw;
+  }
+  .big-font{
+    font-size: 3.7vw;
+  }
+  .navB .wd{
+    width:12%;
+  }
+  .navB .wd img{
+    display: none;
+  }
+  .navB .wd strong{
+    display: unset;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .navB{
-    font-size: 2.2vw;
+    font-size: 2.3vw;
   }
   .big-font{
-    font-size: 3vw;
+    font-size: 3.3vw;
   }
 
 }
 @media screen and (max-width: 700px) {
+  .navB .wd{
+    max-width:10%;
+  }
   .text h1{
     font-size:4vw;
   }
@@ -58,6 +85,7 @@
   .footer .card-body h4{
     font-size:3.3vw;
   }
+
 }
 
 .food-images{
