@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
 
-.section-intro {
-  height: 820px;
-  background-image: url(../images/SPICEGRILL.png);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .about-section {
   display: flex;
   align-items: center;
